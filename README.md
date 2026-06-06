@@ -22,7 +22,7 @@ Melbourne, Australia. Learning to ship real software by building real things.
 
 ## Pinned repos
 
-- **[`phillipMind`](https://github.com/phillza/phillipMind)** — AgentDeck: multi-terminal desktop workspace for AI agents (Windows)
+- **[`agentdeck`](https://github.com/phillza/agentdeck)** — minimal multi-terminal workspace in your browser (~250 lines, aiohttp + xterm.js)
 - **[`fireworks-proxy`](https://github.com/phillza/fireworks-proxy)** — local HTTP proxy that queues Kimi CLI requests to Fireworks AI
 - **[`ausport-fixtures`](https://github.com/phillza/ausport-fixtures)** — Australian sports public data CLI (AFL/NRL)
 - **[`llm-log-summarizer`](https://github.com/phillza/llm-log-summarizer)** — summarize log files with a local LLM (Ollama)
