@@ -30,6 +30,7 @@ I keep my betting infrastructure private (that's my day job), but everything els
 
 ### 🤖 Local AI & dev tooling
 
+- **[multi-agent-loop](https://github.com/phillza/multi-agent-loop)** — autonomous multi-project agent loop. Reads a `projects.json` queue, launches one worker per active project in its own Windows Terminal tab, each running against Claude / Codex / OpenCode with streaming output. 28 .py scripts, stdlib-only, MIT.
 - **[agentdeck](https://github.com/phillza/agentdeck)** — a minimal multi-terminal workspace in your browser. xterm.js + WebSocket + aiohttp, ~250 lines. Ships a Windows watchdog and a torture-test helper for the renderer.
 - **[llm-log-summarizer](https://github.com/phillza/llm-log-summarizer)** — `logsum` CLI. Point it at a log file, get back a markdown report. Uses Ollama by default, so no API key required.
 - **[fireworks-proxy](https://github.com/phillza/fireworks-proxy)** — local HTTP proxy that queues concurrent Kimi CLI requests behind RPS and TPM budgets, so you stop hitting Fireworks AI's adaptive 429s.
@@ -62,4 +63,4 @@ I learn by building, and the best feedback loop is a real user. If any of my rep
 
 ---
 
-<sub>Last updated 2026-06-17.</sub>
+<sub>Last updated 2026-06-19.</sub>
